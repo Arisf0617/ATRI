@@ -1,0 +1,161 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "BLHX_mengya_2.moc3",
+    "Textures": [
+      "BLHX_mengya_2.4096/texture_00.png"
+    ],
+    "Physics": "BLHX_mengya_2.physics3.json",
+    "PhysicsV2": {
+      "File": "BLHX_mengya_2.physics3.json"
+    },
+    "Pose": "motions/standby.motion3.json",
+    "Motions": {
+      "Tapbody": [
+        {
+          "File": "motions/sneeze.motion3.json"
+        },
+        {
+          "File": "motions/いい写真が撮れそう.motion3.json"
+        }
+      ],
+      "Tapwindow": [
+        {
+          "File": "motions/朝日が眩しい.motion3.json"
+        },
+        {
+          "File": "motions/自己紹介.motion3.json"
+        },
+        {
+          "File": "motions/いい写真が撮れそう.motion3.json"
+        }
+      ],
+      "TaphairL": [
+        {
+          "File": "motions/sneeze.motion3.json"
+        }
+      ],
+      "TaphairR": [
+        {
+          "File": "motions/sneeze.motion3.json"
+        }
+      ],
+      "Tapnose": [
+        {
+          "File": "motions/sneeze.motion3.json"
+        }
+      ],
+      "Tapmouth": [
+        {
+          "File": "motions/sneeze.motion3.json"
+        }
+      ],
+      "Tapphoto": [
+        {
+          "File": "motions/自己紹介.motion3.json"
+        }
+      ],
+      "Tapcloth": [
+        {
+          "File": "motions/自己紹介.motion3.json"
+        }
+      ],
+      "TaplegRU": [
+        {
+          "File": "motions/朝日が眩しい.motion3.json"
+        }
+      ],
+      "TaplegLD": [
+        {
+          "File": "motions/いい写真が撮れそう.motion3.json"
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "body",
+      "Id": "body"
+    },
+    {
+      "Name": "window",
+      "Id": "window"
+    },
+    {
+      "Name": "hairL",
+      "Id": "hairL"
+    },
+    {
+      "Name": "nose",
+      "Id": "nose"
+    },
+    {
+      "Name": "hairR",
+      "Id": "hairR"
+    },
+    {
+      "Name": "mouth",
+      "Id": "mouth"
+    },
+    {
+      "Name": "photo",
+      "Id": "photo"
+    },
+    {
+      "Name": "cloth",
+      "Id": "cloth"
+    },
+    {
+      "Name": "legRU",
+      "Id": "legRU"
+    },
+    {
+      "Name": "legLD",
+      "Id": "legLD"
+    }
+  ],
+  "Options": {}
+}
